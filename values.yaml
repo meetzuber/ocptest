@@ -1,0 +1,6 @@
+image:
+  registry: image-registry.openshift-image-registry.svc:5000
+  repository: default/jupyter-pytorch-cuda-full
+  tag: v1.8.0
+service:
+  port: 8888
